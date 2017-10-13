@@ -40,6 +40,7 @@ class HttpAmazonESConnector extends HttpConnector {
     let response;
     const AWS = this.AWS;
 
+console.log("Using Github package");
     let reqParams = this.makeReqParams(params);
     // general clean-up procedure to run after the request
     // completes, has an error, or is aborted.
